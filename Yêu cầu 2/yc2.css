@@ -1,0 +1,38 @@
+.row{
+    display:block;
+}
+form{
+    margin:3rem ;
+    border: 1px solid black;
+    padding: 2rem;
+}
+.col{
+    margin:1rem 0;
+}
+.info{
+    margin: 0 1rem 0 0;
+}
+button{
+    border-radius: 0.2rem;
+    margin: 0 10rem;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid black;
+}
+#txtUserID{
+    padding:0;
+    margin:0 1.1rem;
+}
+#txtPassword{
+    padding:0;
+}
+#txtName{
+    width: 17rem;
+    margin: 0 1.5rem;
+}
+#txtAddress{
+    width: 17rem;
+    margin: 0 0.6rem;
+}
+h4{
+    text-align: center;
+}
