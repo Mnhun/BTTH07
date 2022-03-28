@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+</head>
+<body>
+        <div class="row">
+            <div class="col">
+                Sex:
+            </div>
+            <div class="col">
+                <input type="radio" name="sex" value="1" class="1"/><span>Male</span>
+                <input type="radio" name="sex" value="1" class="1"/><span>Female</span>
+                <span id="statusOfSex"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Language:
+            </div>
+            <div class="col">
+                <input type="checkbox" name="en" value="2" class="2" /><span>English</span>
+                <input type="checkbox" name="en" value="2" class="2"/><span>Non English</span>
+                <span id="statusOfLan"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                About:
+            </div>
+            <div class="col">
+                <textarea name="desc" id="desc"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+               
+            </div>
+            <div class="col">
+                <input type="submit" name="btnRegister" id="btnRegister" value="Register">
+            </div>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
