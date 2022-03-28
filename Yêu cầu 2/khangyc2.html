@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+</head>
+<body>
+        <div class="row">
+            <div class="col">
+                Country:
+            </div>
+            <div class="col">
+                <select name="country" id="selectCountry">
+                    <option selected="" value="Default" >(Please select a country)</option>
+                    <option value="VI">VietNam</option>
+                    <option value="JP">Japan</option>
+                    <option value="US">USA</option>
+                    <option value="TL">Korea</option>
+                    <option value="AU">Australia</option>
+                </select>
+                <span id="statusOfCountry"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Zip Code:
+            </div>
+            <div class="col">
+                <input type="text" name="txtCode" id="txtCode">
+                <span id="statusOfCode"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Email:
+            </div>
+            <div class="col">
+                <input type="text" name="txtmMail" id="txtMail">
+                <span id="statusOfMail"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+               
+            </div>
+            <div class="col">
+                <input type="submit" name="btnRegister" id="btnRegister" value="Register">
+            </div>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="khangyc2.js"></script>
+</body>
+</html>
